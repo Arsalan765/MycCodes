@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
-
+import numpy as np
+import pandas as pd
 cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 600 )
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT,400  )
